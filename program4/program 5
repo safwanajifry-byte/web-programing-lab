@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+</head>
+<body>
+<form>
+<label>Full Name:</label>
+<input type="text" name="name"><br>
+<label>Email:</label>
+<input types="email" name="email"><br>
+<label>Password:</label>
+<input type="password" name="pass"><br>
+<label>Phone no:</label>
+<input type="tel" name="phone"><br>
+<label>D.O.B:</label>
+<input type="date" name="DOB"><br>
+<label>Gender:</label>
+<input type="radio" name="gender" value="male">
+male
+<input type="radio" name="gender" value="female">
+female
+<label>course</label>
+<select name="course">
+<option>select course</option>
+<option>BCA</option>
+<option>MCA</option>
+<option>B.TECH</option>
+</select><br>
+<label>programming languages</label>
+<input type="check box" name="HTML"
+value="HTML">
+<input type="checkbox" name="css" value="css">
+<input type="checkbox" name="flutter" value="flutter">
+<label>upload cv</label>
+<input type="file" name="photo"><br>
+<input type="submit" name="register">
+<input type="reset" name="clear">
+</form></body>
+</html>
+
+
